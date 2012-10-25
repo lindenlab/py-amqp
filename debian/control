@@ -1,0 +1,33 @@
+Source: python-amqp
+Maintainer: Michael Kania <dynamike@lindenlab.com>
+Section: python
+Priority: optional
+Build-Depends: python, python-setuptools (>= 0.6b3), debhelper (>= 7), python-support (>= 0.8.4)
+Standards-Version: 3.8.4
+
+Package: python-amqp
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+XB-Python-Version: ${python:Versions}
+Provides: ${python:Provides}
+Description: Low-level AMQP client for Python (fork of amqplib)
+ =====================================================================
+  Python AMQP 0.9.1 client library
+ =====================================================================
+ .
+ :Version: 0.9.4
+ :Web: http://amqp.readthedocs.org/
+ :Download: http://pypi.python.org/pypi/amqp/
+ :Source: http://github.com/celery/py-amqp/
+ :Keywords: amqp, rabbitmq
+ .
+ About
+ =====
+ .
+ This is a fork of amqplib_ which was originally written by Barry Pederson.
+ It is maintained by the Celery_ project, and used by `kombu`_ as a pure python
+ alternative when `librabbitmq`_ is not available.
+ .
+ This library should be API compatible with `librabbitmq`_.
+ .
+ .. _amqplib: http://pypi.python.org/pypi/amqplib

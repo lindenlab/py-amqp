@@ -1,0 +1,5 @@
+python-amqp (0.9.4) unstable; urgency=low
+
+  * source package automatically created by stdeb 0.6.0
+
+ -- Michael Kania <dynamike@lindenlab.com>  Thu, 25 Oct 2012 23:47:43 +0000
